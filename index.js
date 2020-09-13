@@ -17,3 +17,4 @@ const returnLastTwoDrivers = function(arr) {
     }
     return b;
 }
+returnLastTwoDrivers(drivers)
