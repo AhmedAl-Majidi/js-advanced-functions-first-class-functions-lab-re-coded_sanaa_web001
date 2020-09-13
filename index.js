@@ -15,3 +15,14 @@ const returnLastTwoDrivers = function(arr) {
 returnLastTwoDrivers(drivers)
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
+
+const createFareMultiplier = function(fare){
+  if (fare === 4) {
+    return function () {
+      return fare * 4;
+    }
+  }
+  return function (ride) {
+    let mul = fare * ride;
+  }
+}
