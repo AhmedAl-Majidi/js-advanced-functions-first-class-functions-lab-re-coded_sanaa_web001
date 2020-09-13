@@ -11,7 +11,7 @@ returnFirstTwoDrivers(drivers)
 
 const returnLastTwoDrivers = function(arr) {
   let b =[];
-    for (var i = arr.length ; i > arr.length-2 ; i--) {
+    for (var i = arr.length-1 ; i > arr.length-3 ; i--) {
       b.push(arr[i]);
       // a[i] = arr[i];
     }
