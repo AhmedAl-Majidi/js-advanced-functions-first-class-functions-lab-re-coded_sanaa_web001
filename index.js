@@ -24,7 +24,7 @@ const createFareMultiplier = function(fare){
   } else {
     return function (ride) {
       let mul = fare * ride;
-    }  
+    }
   }
-  
+
 }
