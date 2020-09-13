@@ -10,11 +10,6 @@ const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 returnFirstTwoDrivers(drivers)
 
 const returnLastTwoDrivers = function(arr) {
-  let b =[];
-    for (var i = arr.length-1 ; i > arr.length-3 ; i--) {
-      // b.push(arr[i]);
-      a[i] = arr[i];
-    }
-    return b;
+    return arr.slice(-2);
 }
 returnLastTwoDrivers(drivers)
